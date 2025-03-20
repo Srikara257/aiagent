@@ -123,8 +123,8 @@ def exam_generator(explainations):
     
     Return a JSON array where each element is an object with:
     - "question" (string)
-    - "options" (list of 4 strings: A, B, C, D)
-    - "correct_answer" (one of "A", "B", "C", "D").
+    - "options" (list of 4 strings)
+    - "correct_answer" (one option).
     
     Example format:
     [
