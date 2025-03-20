@@ -128,8 +128,8 @@ def exam_generator(explainations):
     
     Example format:
     [
-        {{"question": "What is OOP?", "options": ["A. Object-Oriented Programming", "B. Only One Program", "C. Other Operating Process", "D. None"],
-        "correct_answer": "A"}}
+        {{"question": "What is OOP?", "options": ["Object-Oriented Programming", "Only One Program", "Other Operating Process", "None"],
+        "correct_answer": "Object-Oriented Programming"}}
     ]
     
     Return **only** the JSON array, with no extra text.
