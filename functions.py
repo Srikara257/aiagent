@@ -2,7 +2,7 @@ from langchain.chat_models import init_chat_model
 import streamlit as st
 import json
 # GROQ_API_KEY=""
-GROQ_API_KEY = st.session_state.api_key
+GROQ_API_KEY = st.session_state.api_key if "api_key" in  st.session_state else ""
 
 def llm_call(prompt):
     print("in llm.py")
