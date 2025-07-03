@@ -1,7 +1,8 @@
 from langchain.chat_models import init_chat_model
 import streamlit as st
 import json
-GROQ_API_KEY="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"
+# GROQ_API_KEY=""
+GROQ_API_KEY = st.session_state.api_key
 
 def llm_call(prompt):
     print("in llm.py")
